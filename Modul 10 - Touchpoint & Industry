@@ -1,0 +1,113 @@
+<!-- MODUL 10: TOUCHPOINT & INDUSTRY MATRIX -->
+<section class="py-24 bg-primary-light border-y border-neutral-border">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        
+        <!-- Touchpoint -->
+        <div class="mb-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-3">From Strategy to Reality</h2>
+                <p class="text-neutral-body">Satu inti strategi, teramplifikasi ke berbagai titik interaksi.</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-center">
+                <div class="p-6 bg-white border border-neutral-border rounded-xl shadow-sm"><i class="fa-solid fa-fingerprint text-2xl text-accent mb-3"></i><div class="font-medium text-sm">Brand Identity</div></div>
+                <div class="p-6 bg-white border border-neutral-border rounded-xl shadow-sm"><i class="fa-solid fa-bullhorn text-2xl text-accent mb-3"></i><div class="font-medium text-sm">Campaign</div></div>
+                <div class="p-6 bg-white border border-neutral-border rounded-xl shadow-sm"><i class="fa-brands fa-instagram text-2xl text-accent mb-3"></i><div class="font-medium text-sm">Social Media</div></div>
+                <div class="p-6 bg-white border border-neutral-border rounded-xl shadow-sm"><i class="fa-solid fa-laptop-code text-2xl text-accent mb-3"></i><div class="font-medium text-sm">Website</div></div>
+                <!-- Ikon Event sudah diganti menjadi bintang (fa-star) -->
+                <div class="p-6 bg-white border border-neutral-border rounded-xl shadow-sm"><i class="fa-solid fa-star text-2xl text-accent mb-3"></i><div class="font-medium text-sm">Event</div></div>
+                <div class="p-6 bg-white border border-neutral-border rounded-xl shadow-sm"><i class="fa-solid fa-video text-2xl text-accent mb-3"></i><div class="font-medium text-sm">Video Production</div></div>
+            </div>
+        </div>
+
+        <!-- Industries -->
+        <div>
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-3">Trusted Across Industries</h2>
+                <p class="text-neutral-body">Kami memahami nuansa tiap industri untuk solusi yang relevan.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Cards -->
+                <div class="bg-white border border-neutral-border rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
+                    <div class="h-32 w-full bg-gray-100 relative">
+                        <img src="https://images.unsplash.com/photo-1523292562811-8fa7962a78c8?auto=format&fit=crop&q=80" alt="Government" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <h4 class="font-bold text-lg mb-2 text-accent">Government</h4>
+                        <p class="text-sm text-neutral-body">Instansi publik & kementerian untuk kampanye sosial & rebranded service.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white border border-neutral-border rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
+                    <div class="h-32 w-full bg-gray-100 relative">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80" alt="Education" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <h4 class="font-bold text-lg mb-2 text-accent">Education</h4>
+                        <p class="text-sm text-neutral-body">Perguruan tinggi & edukasi untuk penguatan brand & registrasi.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white border border-neutral-border rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
+                    <div class="h-32 w-full bg-gray-100 relative">
+                        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80" alt="Healthcare" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <h4 class="font-bold text-lg mb-2 text-accent">Healthcare</h4>
+                        <p class="text-sm text-neutral-body">Rumah sakit & produk medis yang membutuhkan komunikasi terpercaya.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white border border-neutral-border rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
+                    <div class="h-32 w-full bg-gray-100 relative">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80" alt="Technology" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <h4 class="font-bold text-lg mb-2 text-accent">Technology</h4>
+                        <p class="text-sm text-neutral-body">Pusat inovasi & tech hub untuk positioning hilirisasi teknologi.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white border border-neutral-border rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
+                    <div class="h-32 w-full bg-gray-100 relative">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32d7?auto=format&fit=crop&q=80" alt="Startup" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <h4 class="font-bold text-lg mb-2 text-accent">Startup</h4>
+                        <p class="text-sm text-neutral-body">Perusahaan rintisan butuh brand strategy & digital presence akseleratif.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white border border-neutral-border rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
+                    <div class="h-32 w-full bg-gray-100 relative">
+                        <img src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?auto=format&fit=crop&q=80" alt="Retail & FMCG" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <h4 class="font-bold text-lg mb-2 text-accent">Retail & FMCG</h4>
+                        <p class="text-sm text-neutral-body">Merek komersial untuk meningkatkan engagement & loyalitas audiens.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white border border-neutral-border rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
+                    <div class="h-32 w-full bg-gray-100 relative">
+                        <img src="https://images.unsplash.com/photo-1529156069898-49953eb1b5a4?auto=format&fit=crop&q=80" alt="Community" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <h4 class="font-bold text-lg mb-2 text-accent">Community</h4>
+                        <p class="text-sm text-neutral-body">NGO & gerakan lingkungan/sosial untuk kampanye berdampak luas.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white border border-neutral-border rounded-xl overflow-hidden hover:shadow-md transition-shadow flex flex-col">
+                    <div class="h-32 w-full bg-gray-100 relative">
+                        <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&q=80" alt="UMKM" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-grow">
+                        <h4 class="font-bold text-lg mb-2 text-accent">UMKM</h4>
+                        <p class="text-sm text-neutral-body">Usaha lokal yang bertransformasi naik kelas melalui branding konsisten.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
