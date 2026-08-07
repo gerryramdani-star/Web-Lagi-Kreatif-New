@@ -1,0 +1,36 @@
+<!-- MODUL 11: WHY CHOOSE US -->
+<section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl md:text-[40px] font-bold text-neutral-dark mb-4 leading-[1.2]">
+                Mengapa <span class="inline-block border-b-4 border-accent pb-1">Lagi Kreatif?</span>
+            </h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 shrink-0 bg-blue-50 text-accent rounded-lg flex items-center justify-center text-xl"><i class="fa-solid fa-chess-knight"></i></div>
+                <div><h4 class="font-bold text-lg mb-2">Strategy First</h4><p class="text-neutral-body text-sm leading-relaxed">Eksekusi tanpa taktik adalah pemborosan. Kami selalu beranjak dari landasan strategi yang kokoh.</p></div>
+            </div>
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 shrink-0 bg-blue-50 text-accent rounded-lg flex items-center justify-center text-xl"><i class="fa-solid fa-chart-pie"></i></div>
+                <div><h4 class="font-bold text-lg mb-2">Data-Driven</h4><p class="text-neutral-body text-sm leading-relaxed">Keputusan kreatif divalidasi oleh riset pasar, insight konsumen, dan analisis industri terkini.</p></div>
+            </div>
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 shrink-0 bg-blue-50 text-accent rounded-lg flex items-center justify-center text-xl"><i class="fa-regular fa-lightbulb"></i></div>
+                <div><h4 class="font-bold text-lg mb-2">Creative Thinking</h4><p class="text-neutral-body text-sm leading-relaxed">Solusi yang out-of-the-box untuk memecahkan kebekuan komunikasi brand Anda.</p></div>
+            </div>
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 shrink-0 bg-blue-50 text-accent rounded-lg flex items-center justify-center text-xl"><i class="fa-solid fa-globe"></i></div>
+                <div><h4 class="font-bold text-lg mb-2">Cross-Industry</h4><p class="text-neutral-body text-sm leading-relaxed">Pengalaman luas lintas sektor memberikan kami perspektif holistik yang unik.</p></div>
+            </div>
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 shrink-0 bg-blue-50 text-accent rounded-lg flex items-center justify-center text-xl"><i class="fa-solid fa-link"></i></div>
+                <div><h4 class="font-bold text-lg mb-2">End-to-End</h4><p class="text-neutral-body text-sm leading-relaxed">Satu pintu dari audit identitas, kampanye digital, hingga eksekusi on-ground.</p></div>
+            </div>
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 shrink-0 bg-blue-50 text-accent rounded-lg flex items-center justify-center text-xl"><i class="fa-solid fa-handshake"></i></div>
+                <div><h4 class="font-bold text-lg mb-2">Long-Term Partnership</h4><p class="text-neutral-body text-sm leading-relaxed">Kami tidak sekadar vendor, melainkan mitra strategis untuk pertumbuhan berjangka panjang.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
