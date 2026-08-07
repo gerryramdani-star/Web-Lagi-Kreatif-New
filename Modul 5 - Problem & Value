@@ -1,0 +1,38 @@
+<!-- MODUL 5: PROBLEM & VALUE -->
+<section class="py-24 bg-primary-light">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl md:text-[40px] font-bold text-neutral-dark mb-4 leading-[1.2]">
+                Kenapa Banyak Brand Sulit <span class="inline-block border-b-4 border-accent pb-1">Bertumbuh?</span>
+            </h2>
+            <p class="text-neutral-body text-lg">Di era digital yang bising, pesan yang tidak fokus akan hilang. Kami membantu mengatasi hambatan tersebut melalui 3 pilar fundamental.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Pillar 1 -->
+            <div class="bg-white p-8 rounded-2xl border border-neutral-border shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-14 h-14 bg-blue-50 text-accent rounded-xl flex items-center justify-center text-2xl mb-6">
+                    <i class="fa-solid fa-fingerprint"></i>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3">Identitas (Brand)</h3>
+                <p class="text-neutral-body leading-relaxed">Membangun fondasi merek yang kuat, autentik, dan berbeda dari kompetitor untuk memenangkan hati audiens sejak pandangan pertama.</p>
+            </div>
+            <!-- Pillar 2 -->
+            <div class="bg-white p-8 rounded-2xl border border-neutral-border shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-14 h-14 bg-blue-50 text-accent rounded-xl flex items-center justify-center text-2xl mb-6">
+                    <i class="fa-solid fa-bullhorn"></i>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3">Relevansi Komunikasi</h3>
+                <p class="text-neutral-body leading-relaxed">Menyampaikan pesan yang tepat di waktu dan platform yang tepat. Menghubungkan brand dengan audiens melalui kampanye terpadu.</p>
+            </div>
+            <!-- Pillar 3 -->
+            <div class="bg-white p-8 rounded-2xl border border-neutral-border shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-14 h-14 bg-blue-50 text-accent rounded-xl flex items-center justify-center text-2xl mb-6">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3">Reputasi & Growth</h3>
+                <p class="text-neutral-body leading-relaxed">Mengubah interaksi menjadi transaksi dan loyalitas. Strategi yang tidak hanya terlihat, tapi memberikan dampak nyata pada bisnis.</p>
+            </div>
+        </div>
+    </div>
+</section>
