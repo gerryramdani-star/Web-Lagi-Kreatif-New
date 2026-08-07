@@ -1,0 +1,32 @@
+<!-- MODUL 3: HERO SECTION -->
+<section class="relative h-screen min-h-[600px] flex items-center justify-center pt-20">
+    <!-- Video Background Fallback / Placeholder -->
+    <div class="absolute inset-0 z-0 bg-primary-dark">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80" alt="Corporate Meeting" class="w-full h-full object-cover opacity-30 mix-blend-overlay">
+        <!-- Simulated Video Element (Will autoplay if actual src is provided) -->
+        <!-- <video autoplay loop muted playsinline class="w-full h-full object-cover opacity-40 mix-blend-overlay absolute inset-0">
+            <source src="dummy-video.mp4" type="video/mp4">
+        </video> -->
+    </div>
+    
+    <div class="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center">
+        <span class="inline-block py-1 px-3 rounded-full bg-white/10 text-white/90 text-sm font-medium mb-6 border border-white/20 backdrop-blur-sm">
+            PT Lalakon Digital Kreatif
+        </span>
+        <h1 class="text-white text-4xl md:text-5xl lg:text-[64px] font-extrabold tracking-tight leading-[1.1] mb-6">
+            Strategic Communication Partner for Growth & Impact.
+        </h1>
+        <p class="text-white/80 text-lg md:text-xl font-normal max-w-2xl mx-auto mb-10 leading-relaxed">
+            Kami membangun identitas brand, mengintegrasikan komunikasi terpadu, dan mendorong pertumbuhan bisnis yang berkelanjutan.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+            <button onclick="openModal()" class="btn-expand-ring ring-accent bg-accent hover:bg-accent-hover text-white px-8 py-4 rounded-lg font-semibold text-base transition-all duration-150 shadow-lg hover:shadow-accent/30 hover:scale-[1.02] active:scale-95 flex items-center justify-center">
+                Konsultasi Gratis
+            </button>
+            <a href="#portfolio" class="btn-expand-ring ring-white bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/20 px-8 py-4 rounded-lg font-semibold text-base transition-all duration-150 hover:scale-[1.02] active:scale-95 flex items-center justify-center">
+                Lihat Portfolio
+            </a>
+        </div>
+    </div>
+</section>
