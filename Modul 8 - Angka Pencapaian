@@ -1,0 +1,19 @@
+<!-- MODUL 8: ANGKA PENCAPAIAN -->
+<section class="py-16 bg-primary-dark text-white">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-white/20">
+            <div class="py-4">
+                <div class="text-5xl font-extrabold mb-2 text-accent">180+</div>
+                <div class="text-white/80 font-medium tracking-wide">Brands & Organizations</div>
+            </div>
+            <div class="py-4">
+                <div class="text-5xl font-extrabold mb-2 text-accent">100+</div>
+                <div class="text-white/80 font-medium tracking-wide">Programs Delivered</div>
+            </div>
+            <div class="py-4">
+                <div class="text-5xl font-extrabold mb-2 text-accent">7+</div>
+                <div class="text-white/80 font-medium tracking-wide">Years Experience</div>
+            </div>
+        </div>
+    </div>
+</section>
