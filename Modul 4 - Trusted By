@@ -1,0 +1,16 @@
+<!-- MODUL 4: TRUSTED BY -->
+<section class="py-12 bg-white border-b border-neutral-border">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <p class="text-center text-sm font-semibold text-neutral-body uppercase tracking-widest mb-8">Dipercaya Oleh Klien Terkemuka</p>
+        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-70">
+            <!-- Placeholder Logos with Grayscale Effect -->
+            <!-- Jika nanti Anda ingin mengganti teks ini dengan gambar logo asli, cukup ganti tag <div> ini dengan tag <img src="..."> -->
+            <div class="text-xl font-bold grayscale hover:grayscale-0 transition-all duration-300 hover:text-red-600 cursor-pointer">Telkom Indonesia</div>
+            <div class="text-xl font-bold grayscale hover:grayscale-0 transition-all duration-300 hover:text-blue-600 cursor-pointer">Bank Indonesia</div>
+            <div class="text-xl font-bold grayscale hover:grayscale-0 transition-all duration-300 hover:text-blue-800 cursor-pointer">Institut Teknologi Bandung</div>
+            <div class="text-xl font-bold grayscale hover:grayscale-0 transition-all duration-300 hover:text-green-600 cursor-pointer">Dinkes Bandung</div>
+            <div class="text-xl font-bold grayscale hover:grayscale-0 transition-all duration-300 hover:text-orange-600 cursor-pointer">BTP</div>
+            <div class="text-xl font-bold grayscale hover:grayscale-0 transition-all duration-300 hover:text-teal-600 cursor-pointer">Kasoem Optikal</div>
+        </div>
+    </div>
+</section>
