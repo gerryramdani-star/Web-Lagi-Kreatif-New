@@ -1,0 +1,69 @@
+<!-- MODUL 14: FOOTER -->
+<footer class="bg-primary-dark pt-20 pb-10 border-t border-white/10 text-white/70">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+            
+            <!-- Brand Info -->
+            <div class="lg:col-span-1">
+                <div class="flex items-center gap-2 mb-6 text-white">
+                    <div class="w-8 h-8 bg-white text-primary-dark flex items-center justify-center rounded font-bold text-sm">LK</div>
+                    <span class="font-bold text-xl tracking-tight">Lagi Kreatif</span>
+                </div>
+                <p class="text-sm mb-6 leading-relaxed">Strategic Communication Partner for Growth & Impact. Membantu brand bertransformasi dan relevan di setiap era.</p>
+                <div class="flex gap-4">
+                    <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-accent hover:text-white transition-colors"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-accent hover:text-white transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-accent hover:text-white transition-colors"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div>
+                <h4 class="text-white font-semibold mb-6">Navigasi</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="#" class="hover:text-accent transition-colors">Beranda</a></li>
+                    <li><a href="#services" class="hover:text-accent transition-colors">Layanan Kami</a></li>
+                    <li><a href="#portfolio" class="hover:text-accent transition-colors">Case Studies</a></li>
+                    <li><a href="#insights" class="hover:text-accent transition-colors">Insights & Blog</a></li>
+                    <li><a href="#" class="hover:text-accent transition-colors">Karir</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal & Corp -->
+            <div>
+                <h4 class="text-white font-semibold mb-6">Legalitas Perusahaan</h4>
+                <ul class="space-y-3 text-sm text-white/60">
+                    <li><strong>PT Lalakon Digital Kreatif</strong></li>
+                    <li>NIB: 8120312345678</li>
+                    <li>NPWP: 123456789-012-000</li>
+                    <li class="pt-2"><a href="#" class="hover:text-white transition-colors underline">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors underline">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div>
+                <h4 class="text-white font-semibold mb-6">Kantor & Kontak</h4>
+                <ul class="space-y-4 text-sm">
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-location-dot mt-1 text-accent"></i>
+                        <span>Bandung Techno Park, Telkom University
+                    <br>Lt. 2, R. B205 - R. B206,<br>Jl. Telekomunikasi No.1, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung,<br>Jawa Barat 40257</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fa-solid fa-envelope text-accent"></i>
+                        <a href="mailto:hello@lagikreatif.com" class="hover:text-white transition-colors">hello@lagikreatif.com</a>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fa-solid fa-phone text-accent"></i>
+                        <a href="tel:+6281234567890" class="hover:text-white transition-colors">+62 812 3456 7890</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="pt-8 border-t border-white/10 text-center text-sm text-white/50">
+            &copy; 2026 PT Lalakon Digital Kreatif. All rights reserved.
+        </div>
+    </div>
+</footer>
