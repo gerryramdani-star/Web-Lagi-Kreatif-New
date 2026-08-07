@@ -1,0 +1,61 @@
+<!-- MODUL 12: LATEST INSIGHTS -->
+<section id="insights" class="py-24 bg-primary-light">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <div class="flex justify-between items-end mb-12">
+            <h2 class="text-3xl md:text-[40px] font-bold text-neutral-dark mb-2 leading-[1.2]">
+                Latest <span class="inline-block border-b-4 border-accent pb-1">Insights</span>
+            </h2>
+            <a href="#" class="text-accent font-semibold hover:text-accent-hover flex items-center gap-2 transition-colors hidden md:flex">
+                Jelajahi Artikel <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+        <!-- Magazine Layout -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Featured Article (Left) -->
+            <a href="#" class="lg:col-span-2 group rounded-2xl overflow-hidden relative block shadow-md h-[400px] lg:h-[500px]">
+                <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80" alt="Brand Strategy" class="absolute inset-0 w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700">
+                <div class="absolute inset-0 bg-gradient-to-t from-primary-dark via-primary-dark/50 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 p-8 w-full">
+                    <span class="inline-block bg-accent text-white text-[12px] font-medium uppercase tracking-[0.05em] px-3 py-1 rounded mb-4">Brand Strategy</span>
+                    <h3 class="text-white text-2xl md:text-3xl font-bold mb-3 group-hover:text-blue-200 transition-colors">Panduan Komprehensif Membangun Arsitektur Brand yang Resilien di Era Digital</h3>
+                    <div class="flex items-center text-white/70 text-sm gap-4">
+                        <span><i class="fa-regular fa-clock mr-1"></i> 5 Min Read</span>
+                        <span>Juli 2026</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Secondary Articles (Right) -->
+            <div class="flex flex-col gap-8">
+                <!-- Article 1 -->
+                <a href="#" class="group flex flex-col gap-4">
+                    <div class="w-full h-48 rounded-xl overflow-hidden shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?auto=format&fit=crop&q=80" alt="Marketing" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div>
+                        <span class="text-accent text-[12px] font-medium uppercase tracking-[0.05em] mb-2 block">Marketing</span>
+                        <h4 class="text-lg font-bold text-neutral-dark group-hover:text-accent transition-colors mb-2 leading-snug">Memahami Generasi Z: Taktik Campaign yang Tidak Sekadar FOMO</h4>
+                        <span class="text-neutral-body text-sm"><i class="fa-regular fa-clock mr-1"></i> 3 Min Read</span>
+                    </div>
+                </a>
+                <!-- Article 2 -->
+                <a href="#" class="group flex flex-col gap-4">
+                    <div class="w-full h-48 rounded-xl overflow-hidden shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80" alt="Communication" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div>
+                        <span class="text-accent text-[12px] font-medium uppercase tracking-[0.05em] mb-2 block">Communication</span>
+                        <h4 class="text-lg font-bold text-neutral-dark group-hover:text-accent transition-colors mb-2 leading-snug">Krisis Komunikasi: Pentingnya Kecepatan dan Empati dalam PR</h4>
+                        <span class="text-neutral-body text-sm"><i class="fa-regular fa-clock mr-1"></i> 4 Min Read</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Mobile "Lihat Semua" Button -->
+        <a href="#" class="text-accent font-semibold mt-8 flex items-center justify-center gap-2 md:hidden">
+            Jelajahi Artikel <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </div>
+</section>
