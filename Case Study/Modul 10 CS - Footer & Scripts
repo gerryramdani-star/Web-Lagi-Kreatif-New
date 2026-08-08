@@ -1,0 +1,99 @@
+<!-- MODUL 10 CASE STUDY: FOOTER, CONTACT MODAL & SCRIPTS -->
+<footer class="bg-primary-dark pt-20 pb-10 border-t border-white/10 text-white/70">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 text-center md:text-left">
+        <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+            <div>
+                <a href="index.html" class="block mb-4">
+                    <!-- Ganti URL_LOGO_ANDA_DI_SINI_WHITE.png dengan link gambar logo versi putih -->
+                    <img src="URL_LOGO_ANDA_DI_SINI_WHITE.png" alt="Lagi Kreatif Logo" class="h-10 w-auto object-contain mx-auto md:mx-0">
+                </a>
+                <p class="text-sm max-w-sm">Strategic Communication Partner for Growth & Impact.</p>
+            </div>
+            <div class="text-sm text-white/50 pt-4 md:pt-0">
+                &copy; 2026 PT Lalakon Digital Kreatif. All rights reserved.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Contact Modal (Tersembunyi secara default) -->
+<div id="contact-modal" class="fixed inset-0 z-[100] hidden flex items-center justify-center px-4">
+    <div class="absolute inset-0 bg-primary-dark/80 backdrop-blur-sm" onclick="closeModal()"></div>
+    <div class="bg-white w-full max-w-lg rounded-2xl p-8 relative z-10 shadow-2xl transform scale-95 opacity-0 transition-all duration-300" id="modal-content">
+        <button onclick="closeModal()" class="absolute top-6 right-6 text-neutral-body hover:text-neutral-dark text-xl">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <h3 class="text-2xl font-bold text-neutral-dark mb-2">Jadwalkan Diskusi</h3>
+        <p class="text-neutral-body text-sm mb-6">Isi form di bawah ini untuk terhubung langsung dengan tim kami via WhatsApp.</p>
+        
+        <form id="wa-form" onsubmit="submitForm(event)" class="space-y-4">
+            <div>
+                <input type="text" id="form-name" required class="w-full px-4 py-2.5 border border-neutral-border rounded-lg focus:ring-accent focus:outline-none" placeholder="Nama Lengkap">
+            </div>
+            <div>
+                <input type="text" id="form-company" required class="w-full px-4 py-2.5 border border-neutral-border rounded-lg focus:ring-accent focus:outline-none" placeholder="Perusahaan / Instansi">
+            </div>
+            <div>
+                <textarea id="form-message" rows="3" required class="w-full px-4 py-2.5 border border-neutral-border rounded-lg focus:ring-accent focus:outline-none" placeholder="Ceritakan singkat tantangan bisnis Anda..."></textarea>
+            </div>
+            <button type="submit" class="w-full bg-accent hover:bg-accent-hover text-white py-3 rounded-lg font-bold transition-all mt-2">
+                <i class="fa-brands fa-whatsapp text-lg mr-2"></i> Kirim ke WhatsApp
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script>
+    // Navbar Sticky Shadow
+    window.addEventListener('scroll', () => {
+        const header = document.getElementById('navbar');
+        if (header) {
+            if (window.scrollY > 20) { 
+                header.classList.add('shadow-sm'); 
+            } else { 
+                header.classList.remove('shadow-sm'); 
+            }
+        }
+    });
+
+    // Modal Logic
+    const modal = document.getElementById('contact-modal');
+    const modalContent = document.getElementById('modal-content');
+    
+    window.openModal = function() {
+        if(modal && modalContent) {
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                modalContent.classList.remove('scale-95', 'opacity-0');
+                modalContent.classList.add('scale-100', 'opacity-100');
+            }, 10);
+        }
+    }
+    
+    window.closeModal = function() {
+        if(modal && modalContent) {
+            modalContent.classList.remove('scale-100', 'opacity-100');
+            modalContent.classList.add('scale-95', 'opacity-0');
+            setTimeout(() => { 
+                modal.classList.add('hidden'); 
+            }, 300);
+        }
+    }
+
+    // Form Submit (WhatsApp Redirection)
+    window.submitForm = function(e) {
+        e.preventDefault();
+        const name = document.getElementById('form-name').value;
+        const company = document.getElementById('form-company').value;
+        const message = document.getElementById('form-message').value;
+        
+        const text = `Halo tim Lagi Kreatif, saya tertarik berdiskusi.\n\n*Nama:* ${name}\n*Perusahaan:* ${company}\n*Pesan:* ${message}`;
+        const waNumber = "6281234567890"; // Sesuaikan dengan nomor dari PRD
+        
+        window.open(`https://wa.me/${waNumber}?text=${encodeURIComponent(text)}`, '_blank');
+        
+        document.getElementById('wa-form').reset();
+        closeModal();
+    }
+</script>
