@@ -1,0 +1,78 @@
+<!-- MODUL 9 CASE STUDY: MAJOR CTA & RELATED PROJECTS -->
+<section class="py-24 bg-primary-dark relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-96 h-96 bg-accent rounded-full mix-blend-multiply filter blur-[128px] opacity-30"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-400 rounded-full mix-blend-multiply filter blur-[128px] opacity-20"></div>
+    
+    <div class="max-w-4xl mx-auto px-4 relative z-10 text-center">
+        <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
+            Ready to Build Something <span class="text-blue-400">Meaningful?</span>
+        </h2>
+        <p class="text-white/80 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
+            Mari diskusikan bagaimana strategi komunikasi yang tepat dapat membantu organisasi dan brand Anda bertumbuh secara terukur.
+        </p>
+        <div class="flex justify-center">
+            <button onclick="openModal()" class="btn-expand-ring ring-accent w-full sm:w-auto bg-accent hover:bg-accent-hover text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-150 shadow-lg hover:shadow-accent/40 hover:scale-[1.02] active:scale-95 flex items-center justify-center">
+                Schedule Consultation
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="py-24 bg-primary-light">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <h2 class="text-3xl font-bold text-neutral-dark mb-12 text-center">Related Projects</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="group bg-white rounded-xl border border-neutral-border overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col h-full cursor-pointer">
+                <div class="relative w-full aspect-video overflow-hidden bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80" alt="BTP" class="w-full h-full object-cover transform group-hover:scale-[1.03] transition-transform duration-500">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <div class="mb-4">
+                        <span class="inline-block bg-gray-100 text-neutral-body text-[12px] font-medium uppercase tracking-[0.05em] px-2 py-1 rounded">Technology</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 group-hover:text-accent transition-colors">Bandung Techno Park</h3>
+                    <p class="text-neutral-body text-sm mb-6 flex-grow">Positioning dan pembuatan company profile untuk pusat inovasi regional.</p>
+                    <div class="flex items-center text-accent font-semibold text-sm mt-auto">
+                        Read Case Study <i class="fa-solid fa-arrow-right ml-2 transform group-hover:translate-x-1 transition-transform"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="group bg-white rounded-xl border border-neutral-border overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col h-full cursor-pointer">
+                <div class="relative w-full aspect-video overflow-hidden bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80" alt="DKST ITB" class="w-full h-full object-cover transform group-hover:scale-[1.03] transition-transform duration-500">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <div class="mb-4">
+                        <span class="inline-block bg-gray-100 text-neutral-body text-[12px] font-medium uppercase tracking-[0.05em] px-2 py-1 rounded">Education</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 group-hover:text-accent transition-colors">DKST ITB</h3>
+                    <p class="text-neutral-body text-sm mb-6 flex-grow">Rebranding dan pengembangan direktori inovasi untuk hilirisasi teknologi kampus.</p>
+                    <div class="flex items-center text-accent font-semibold text-sm mt-auto">
+                        Read Case Study <i class="fa-solid fa-arrow-right ml-2 transform group-hover:translate-x-1 transition-transform"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="group bg-white rounded-xl border border-neutral-border overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col h-full cursor-pointer">
+                <div class="relative w-full aspect-video overflow-hidden bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80" alt="Bank Indonesia" class="w-full h-full object-cover transform group-hover:scale-[1.03] transition-transform duration-500">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <div class="mb-4">
+                        <span class="inline-block bg-gray-100 text-neutral-body text-[12px] font-medium uppercase tracking-[0.05em] px-2 py-1 rounded">Government</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 group-hover:text-accent transition-colors">Bank Indonesia</h3>
+                    <p class="text-neutral-body text-sm mb-6 flex-grow">Event activation & digital campaign untuk literasi keuangan digital.</p>
+                    <div class="flex items-center text-accent font-semibold text-sm mt-auto">
+                        Read Case Study <i class="fa-solid fa-arrow-right ml-2 transform group-hover:translate-x-1 transition-transform"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
