@@ -1,0 +1,33 @@
+<!-- MODUL 5 CASE STUDY: DAMPAK NYATA -->
+<section class="py-24 bg-primary-dark text-white">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <div class="text-center mb-16 max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-5xl font-bold mb-6">Dampak <span class="text-accent">Nyata</span></h2>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <!-- Text Impact -->
+            <div>
+                <h3 class="text-2xl font-semibold mb-6">Communication Impact</h3>
+                <ul class="space-y-4 text-white/80 text-lg">
+                    <li class="flex items-start gap-4"><i class="fa-solid fa-check mt-1.5 text-accent"></i> <span>Strategi komunikasi yang terintegrasi antar semua lini.</span></li>
+                    <li class="flex items-start gap-4"><i class="fa-solid fa-check mt-1.5 text-accent"></i> <span>Konsistensi pesan di seluruh kanal media sosial dan rilis berita.</span></li>
+                    <li class="flex items-start gap-4"><i class="fa-solid fa-check mt-1.5 text-accent"></i> <span>Awareness program yang semakin kuat di kalangan civitas akademika.</span></li>
+                    <li class="flex items-start gap-4"><i class="fa-solid fa-check mt-1.5 text-accent"></i> <span>Materi komunikasi terstruktur yang dapat digunakan secara berkelanjutan (sustainable asset).</span></li>
+                </ul>
+            </div>
+
+            <!-- Numbers / Metrics -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm text-center transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="text-5xl font-extrabold text-blue-400 mb-2">40%</div>
+                    <div class="text-white/70 font-medium">Increase Engagement</div>
+                </div>
+                <div class="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm text-center transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="text-5xl font-extrabold text-blue-400 mb-2">15K+</div>
+                    <div class="text-white/70 font-medium">Participants Reached</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
