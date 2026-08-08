@@ -1,0 +1,39 @@
+<!-- MODUL 3 CASE STUDY: TANTANGAN & INSIGHT -->
+<section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            
+            <!-- The Challenge -->
+            <div>
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-12 h-12 bg-red-50 text-red-500 rounded-xl flex items-center justify-center text-xl"><i class="fa-solid fa-mountain"></i></div>
+                    <h2 class="text-3xl font-bold text-neutral-dark">Tantangan</h2>
+                </div>
+                <p class="text-lg font-medium text-neutral-dark mb-4">Setiap proyek selalu dimulai dari sebuah tantangan.</p>
+                <p class="text-neutral-body leading-relaxed mb-4">
+                    Innovillage merupakan program nasional Telkom Indonesia dan Telkom University yang mendorong mahasiswa menciptakan inovasi sosial berbasis teknologi.
+                </p>
+                <p class="text-neutral-body leading-relaxed">
+                    Tantangannya bukan sekadar mempromosikan program, tetapi bagaimana membangun komunikasi yang mampu meningkatkan <em>awareness</em>, memperluas jangkauan, dan mendorong lebih banyak mahasiswa untuk berpartisipasi di seluruh Indonesia.
+                </p>
+            </div>
+
+            <!-- Our Insight -->
+            <div>
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-12 h-12 bg-blue-50 text-accent rounded-xl flex items-center justify-center text-xl"><i class="fa-regular fa-lightbulb"></i></div>
+                    <h2 class="text-3xl font-bold text-neutral-dark">Insight</h2>
+                </div>
+                <div class="bg-primary-light p-8 rounded-2xl border border-neutral-border">
+                    <p class="text-neutral-body leading-relaxed mb-6 italic">
+                        "Banyak program memiliki manfaat besar, namun gagal menjangkau audiens karena pesan yang terlalu administratif dan kurang relevan dengan target pesertanya."
+                    </p>
+                    <p class="text-neutral-dark font-medium leading-relaxed">
+                        Kami melihat bahwa mahasiswa lebih tertarik pada cerita tentang dampak, pengalaman peserta sebelumnya, dan peluang nyata yang mereka dapatkan—daripada sekadar informasi mengenai tata cara pendaftaran.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
