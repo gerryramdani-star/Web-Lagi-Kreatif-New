@@ -1,0 +1,20 @@
+<!-- MODUL 8 CASE STUDY: TESTIMONIAL KLIEN -->
+<section class="py-24 bg-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+        <i class="fa-solid fa-quote-left text-5xl text-accent/20 mb-6"></i>
+        <h3 class="text-2xl md:text-3xl font-medium text-neutral-dark leading-relaxed mb-10 italic">
+            "Kerjasama dengan Lagi Kreatif membuat program Innovillage tahun ini jauh lebih terarah komunikasinya. Mereka tidak hanya mengeksekusi desain, tetapi benar-benar memikirkan strategi pesannya dari hulu ke hilir sehingga engagement dari mahasiswa meningkat signifikan."
+        </h3>
+        
+        <div class="flex items-center justify-center gap-4">
+            <!-- Ganti src di bawah ini dengan foto PIC / perwakilan klien Anda -->
+            <div class="w-16 h-16 rounded-full bg-gray-200 overflow-hidden shadow-sm">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80" alt="PIC Photo" class="w-full h-full object-cover">
+            </div>
+            <div class="text-left">
+                <div class="font-bold text-neutral-dark text-lg">Bapak John Doe</div>
+                <div class="text-sm text-neutral-body">Program Director, Innovillage</div>
+            </div>
+        </div>
+    </div>
+</section>
