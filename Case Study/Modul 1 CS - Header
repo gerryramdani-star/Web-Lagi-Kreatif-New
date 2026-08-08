@@ -1,0 +1,28 @@
+<!-- MODUL 1 CASE STUDY: HEADER / NAVBAR -->
+<header class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-neutral-border transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <div class="flex justify-between items-center h-20">
+            
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center transition-transform hover:scale-105">
+                <!-- Ganti URL_LOGO_ANDA_DI_SINI.png dengan link gambar logo Anda dari Media Library WordPress -->
+                <img src="URL_LOGO_ANDA_DI_SINI.png" alt="Lagi Kreatif Logo" class="h-10 w-auto object-contain">
+            </a>
+
+            <!-- Desktop Nav (Link Kembali) -->
+            <nav class="hidden md:flex gap-8 items-center text-sm font-medium">
+                <a href="index.html" class="hover:text-accent transition-colors">
+                    <i class="fa-solid fa-arrow-left mr-2"></i> Kembali ke Beranda
+                </a>
+            </nav>
+
+            <!-- Desktop CTA -->
+            <div class="hidden md:flex items-center gap-4">
+                <button onclick="openModal()" class="btn-glare relative overflow-hidden bg-accent hover:bg-accent-hover text-white px-5 py-2.5 rounded-lg font-semibold text-sm transition-all hover:scale-[1.02] active:scale-95 shadow-sm">
+                    Konsultasi Gratis
+                </button>
+            </div>
+            
+        </div>
+    </div>
+</header>
