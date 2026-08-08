@@ -1,0 +1,54 @@
+<!-- MODUL 6 CASE STUDY: EXECUTION GALLERY -->
+<section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <h2 class="text-3xl font-bold text-neutral-dark mb-12 text-center">Execution Gallery</h2>
+        
+        <!-- Tailwind CSS Columns for Masonry Layout -->
+        <div class="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
+            
+            <!-- Ganti atribut src dengan foto/poster eksekusi nyata -->
+            <div class="break-inside-avoid group relative overflow-hidden rounded-xl shadow-sm">
+                <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80" alt="Event Opening" class="w-full h-auto transform group-hover:scale-105 transition-transform duration-500">
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <span class="text-white font-bold tracking-wide">Event Offline</span>
+                </div>
+            </div>
+            
+            <div class="break-inside-avoid group relative overflow-hidden rounded-xl shadow-sm">
+                <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80" alt="Instagram Campaign" class="w-full h-auto transform group-hover:scale-105 transition-transform duration-500">
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <span class="text-white font-bold tracking-wide">IG Reels Campaign</span>
+                </div>
+            </div>
+            
+            <div class="break-inside-avoid group relative overflow-hidden rounded-xl shadow-sm">
+                <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80" alt="Press Conference" class="w-full h-auto transform group-hover:scale-105 transition-transform duration-500">
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <span class="text-white font-bold tracking-wide">Media Relations</span>
+                </div>
+            </div>
+            
+            <div class="break-inside-avoid group relative overflow-hidden rounded-xl shadow-sm">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80" alt="Website Report" class="w-full h-auto transform group-hover:scale-105 transition-transform duration-500">
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <span class="text-white font-bold tracking-wide">Web Landing Page</span>
+                </div>
+            </div>
+            
+            <div class="break-inside-avoid group relative overflow-hidden rounded-xl shadow-sm">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80" alt="Activation" class="w-full h-auto transform group-hover:scale-105 transition-transform duration-500">
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <span class="text-white font-bold tracking-wide">Campus Activation</span>
+                </div>
+            </div>
+            
+            <div class="break-inside-avoid group relative overflow-hidden rounded-xl shadow-sm">
+                <img src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?auto=format&fit=crop&q=80" alt="Poster Design" class="w-full h-auto transform group-hover:scale-105 transition-transform duration-500">
+                <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <span class="text-white font-bold tracking-wide">Poster & Motion</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
