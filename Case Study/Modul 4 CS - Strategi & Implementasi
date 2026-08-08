@@ -1,0 +1,69 @@
+<!-- MODUL 4 CASE STUDY: STRATEGI & IMPLEMENTASI -->
+<section class="py-24 bg-primary-light border-y border-neutral-border">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-16">
+            <!-- Our Strategy -->
+            <div class="lg:col-span-1">
+                <h2 class="text-3xl font-bold text-neutral-dark mb-4">Strategi</h2>
+                <p class="text-neutral-body leading-relaxed mb-8">
+                    Kami merancang pendekatan komunikasi yang terintegrasi agar seluruh aktivitas memiliki arah yang sama.
+                </p>
+                <div class="bg-white p-6 rounded-xl border border-neutral-border shadow-sm">
+                    <h4 class="font-bold text-neutral-dark mb-4 uppercase tracking-widest text-sm text-accent">Scope of Work</h4>
+                    <ul class="space-y-4 text-neutral-body font-medium">
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-accent text-lg"></i> Integrated Marketing Comm.</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-accent text-lg"></i> Campaign Strategy</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-accent text-lg"></i> Communication Planning</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-accent text-lg"></i> Content Strategy</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-accent text-lg"></i> Public Relations & Media</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-accent text-lg"></i> Event Communication</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Execution -->
+            <div class="lg:col-span-2">
+                <h2 class="text-3xl font-bold text-neutral-dark mb-4">Implementasi</h2>
+                <p class="text-neutral-body leading-relaxed mb-10 text-lg">
+                    Kami menerjemahkan strategi menjadi berbagai aktivitas komunikasi yang masif dan terukur.
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="border-l-2 border-accent pl-6">
+                        <h4 class="font-bold text-xl mb-2">Campaign Planning</h4>
+                        <p class="text-neutral-body text-sm">Penyusunan timeline kampanye nasional dari pre-event, registrasi, hingga awarding.</p>
+                    </div>
+                    <div class="border-l-2 border-accent pl-6">
+                        <h4 class="font-bold text-xl mb-2">Content Strategy</h4>
+                        <p class="text-neutral-body text-sm mb-2">Produksi & distribusi konten digital harian:</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Carousel</span>
+                            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Reels</span>
+                            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Story</span>
+                            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Landing Page</span>
+                        </div>
+                    </div>
+                    <div class="border-l-2 border-accent pl-6">
+                        <h4 class="font-bold text-xl mb-2">Public Relations</h4>
+                        <p class="text-neutral-body text-sm mb-2">Manajemen reputasi di media massa:</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Media Release</span>
+                            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Media Partnership</span>
+                            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Stakeholder Comm.</span>
+                        </div>
+                    </div>
+                    <div class="border-l-2 border-accent pl-6">
+                        <h4 class="font-bold text-xl mb-2">Event Communication</h4>
+                        <p class="text-neutral-body text-sm mb-2">Amplifikasi setiap fase acara offline & online:</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Opening</span>
+                            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Activation</span>
+                            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Documentation</span>
+                            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Closing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
